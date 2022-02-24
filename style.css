@@ -18,8 +18,8 @@ body{
   margin: 20px;
 }
 
-.Pontent+p{
-  color: pink;
+p:first-child{
+  background-color: pink;
 }
 
 .end{
