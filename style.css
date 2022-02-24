@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+}
+
+body,html{
+  padding:0px;
+  margin:0px;
+}
+
+body{
+  background-color: lightblue;
+  display: flex;
+}
+
+.Pcontent,.Start {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.7vmax;
+  margin: 20px;
+}
+
+.Pontent+p{
+  color: pink;
+}
+
+.end{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imageholder{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.imagesubholder img{
+  object-fit: cover;
+  width:30vw;
+  height:40vh;
+}
+
+.end > p{
+  font-size: 2.3vmax;
+}
+
+a:link, a:active{
+  text-decoration: none;
+}
+a:hover{
+  color: green;
+}
